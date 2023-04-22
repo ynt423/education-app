@@ -76,7 +76,7 @@ export default function Login() {
                 })
               );
               setCorrectEmailPW(true);
-              navigate("/education-app/dashboard");
+              navigate("/education-app/Dashboard");
             } else {
               console.log("No data available");
             }
@@ -163,7 +163,7 @@ export default function Login() {
             console.error(error);
           });
 
-        navigate("/education-app/dashboard");
+        navigate("/education-app/Dashboard");
         // ...
       })
       .catch((error) => {
@@ -187,7 +187,7 @@ export default function Login() {
             <figure>
               <img src={Login_logo} alt="Login Logo"></img>
             </figure>
-            <Link to="/SignUp" className="signup-image-link">
+            <Link to="/education-app/SignUp" className="signup-image-link">
               Create an account
             </Link>
           </div>
