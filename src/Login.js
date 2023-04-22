@@ -31,7 +31,7 @@ const firebaseConfig = {
 };
 
 export default function Login() {
-  const navigate = useNavigate();
+  const navigate = useNavigate("/education-app");
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [state, setState] = useState({
