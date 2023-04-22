@@ -12,7 +12,7 @@ function App() {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/Card" element={<Card />} />
-      {/* <Route path="*" element={<h1>404: Not Found</h1>} /> */}
+      <Route path="*" element={<h1>404: Not Found</h1>} />
     </Routes>
   );
 }
