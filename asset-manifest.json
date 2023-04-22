@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/education-app/static/css/main.176366c8.css",
-    "main.js": "/education-app/static/js/main.5a741606.js",
+    "main.js": "/education-app/static/js/main.f17bb93a.js",
     "static/media/Material-Design-Iconic-Font.ttf?v=2.2.0": "/education-app/static/media/Material-Design-Iconic-Font.5a588d6a8bfc41d69f88.ttf",
     "static/media/poppins-v5-latin-300italic.svg": "/education-app/static/media/poppins-v5-latin-300italic.6b332dbde80c9d2001db.svg",
     "static/media/poppins-v5-latin-italic.svg": "/education-app/static/media/poppins-v5-latin-italic.57ac19b1005792f48812.svg",
@@ -71,6 +71,6 @@
   },
   "entrypoints": [
     "static/css/main.176366c8.css",
-    "static/js/main.5a741606.js"
+    "static/js/main.f17bb93a.js"
   ]
 }
