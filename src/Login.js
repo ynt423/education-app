@@ -76,7 +76,7 @@ export default function Login() {
                 })
               );
               setCorrectEmailPW(true);
-              navigate("/dashboard");
+              navigate("/education-app/dashboard");
             } else {
               console.log("No data available");
             }
@@ -163,7 +163,7 @@ export default function Login() {
             console.error(error);
           });
 
-        navigate("/dashboard");
+        navigate("/education-app/dashboard");
         // ...
       })
       .catch((error) => {

@@ -128,7 +128,7 @@ export default function Dashboard() {
         console.log(error);
       });
 
-    navigate("/");
+    navigate("/education-app");
   };
 
   useEffect(() => {
@@ -289,7 +289,7 @@ export default function Dashboard() {
             ""
           )
         ) : (
-          <Navigate to="/" />
+          <Navigate to="/education-app" />
         )}
       </Main>
     </Box>
